@@ -1,0 +1,20 @@
+{
+  "name": "check-npm-dependencies",
+  "version": "1.0.0",
+  "description": "npm dependencies checker",
+  "main": "index.js",
+  "bin": {
+    "check-npm-dependencies": "./bin/checker"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Inmaculada Peinado Diaz",
+  "license": "MIT",
+  "devDependencies": {
+    "json2md": "^1.7.0",
+    "license-checker": "^25.0.1",
+    "lodash": "^4.17.15",
+    "yargs": "^15.3.1"
+  }
+}
