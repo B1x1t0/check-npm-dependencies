@@ -7,7 +7,7 @@
     "check-npm-dependencies": "./bin/checker"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preinstall": "npm i -g license-checker"
   },
   "author": "Inmaculada Peinado Diaz",
   "license": "MIT",
